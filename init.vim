@@ -11,7 +11,7 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set fileformat=unix
-filetype indent on      " load filetype-specific indent files
+filetype indent on      
 
 " for tabulation
 set smartindent
@@ -33,9 +33,8 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 
-" color schemas
-Plug 'morhetz/gruvbox'  " colorscheme gruvbox
-Plug 'mhartington/oceanic-next'  " colorscheme OceanicNext
+Plug 'morhetz/gruvbox'  
+Plug 'mhartington/oceanic-next' 
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'ayu-theme/ayu-vim'
 
@@ -44,12 +43,11 @@ Plug 'xiyaowong/nvim-transparent'
 Plug 'Pocco81/auto-save.nvim'
 Plug 'justinmk/vim-sneak'
 
-" JS/JSX/TS
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'maxmellon/vim-jsx-pretty'
-" TS from here https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c
+
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 Plug 'nvim-lua/plenary.nvim'
